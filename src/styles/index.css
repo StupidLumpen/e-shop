@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Poppins&display=swap');
+
+*, *::after, *::before {
+    background-color: var(--white-color);
+    color: var(--black-color);
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    text-transform: none;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}

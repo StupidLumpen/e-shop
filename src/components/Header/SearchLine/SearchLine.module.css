@@ -1,0 +1,24 @@
+.container {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    background-color: inherit;
+}
+
+.input {
+    width: 90%;
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 10px 0 0 10px;
+    font-size: 15px;
+}
+
+.button {
+    width: 10%;
+    height: 40px;
+    background-color: var(--green-color);
+    color: var(--white-color);
+    font-size: 20px;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
