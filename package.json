@@ -11,6 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/StupidLumpen/e-shop.git"
   },
+<<<<<<< Updated upstream
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -31,5 +32,22 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+=======
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/plugin-transform-private-property-in-object": "^7.22.11"
+>>>>>>> Stashed changes
   }
 }

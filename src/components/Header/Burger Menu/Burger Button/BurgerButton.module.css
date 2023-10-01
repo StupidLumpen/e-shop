@@ -1,0 +1,47 @@
+.container {
+    height: 30px;
+    background-color: inherit;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    right: 7%;
+    top: 22.5px;
+}
+
+.bar {
+    display: block;
+    width: 35px;
+    height: 4px;
+    border-radius: 5px;
+    background-color: var(--white-color);
+    transition: all .25s linear;
+}
+
+.activated {
+    height: 30px;
+    background-color: inherit;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    right: 7%;
+    top: 22.5px;
+}
+
+.activated .bar:first-of-type {
+    transform: translateY(13px) rotate(45deg);
+}
+
+.activated .bar:nth-last-of-type(2) {
+    width: 0;
+}
+
+.activated .bar:last-of-type {
+    transform: translateY(-13px) rotate(-45deg);
+}
+
